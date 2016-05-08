@@ -1,0 +1,16 @@
+name: CanvasPlayer
+main: com.antarescraft.canvasplayer.main.CPMain
+version: 1.0
+author: Kloudy
+website: www.antarescraft.com
+
+softdepend: [ProtocolLib]
+
+commands:
+  cp:
+    description: used to define commands for the CanvasPlayer plugin
+    
+permissions:
+  cp.use:
+    description: Allows a player to use all cp commands and features.
+    default: op
